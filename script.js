@@ -1,6 +1,6 @@
  
 document.addEventListener("DOMContentLoaded", () => {
-    const text = "Hi, I'm JAY xWeb Developer";
+    const text = "Hi, I'm JAY Web Developer";
     let index = 17;
     const typingElement = document.querySelector(".typing-text");
 
