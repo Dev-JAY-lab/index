@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. JAY - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <video autoplay loop muted playsinline id="bg-video">
+        <source src="back.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <header>
+
+        <h4 id="port">Portfolio</h4>
+       
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav> 
+        <div id="home">
+           
+            <h2>Welcome to My Portfolio</h2> 
+            
+            <div class="space"><h1 class="typing-text">Hi, I'm Web JAY D<span class="highlight">eveloper </span></h1></div>
+            <p>I'm a passionate web developer and desginer, bringing ideas to life through code.   
+               </p>
+            <a href="#projects" class="btn">View My Work</a>
+            </div>
+        <button class="toggle-btn" onclick="toggleDarkMode()">Dark Mode</button>
+    </header>
+
+    <main>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Tailwind CSS</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>Github</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Java</li>
+                <li>SQL</li>
+                <li>MySQL</li>
+            </ul>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a web developer focused on creating smooth, modern, and user-friendly web experiences.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <img src="https://s.tmimgcdn.com/scr/1200x750/336900/simple-portfolio-presentation-template_336995-original.jpg" alt="Project 1"  >
+                    <p>Project 1 - A sleek design portfolio.</p>
+                </div>
+                <div class="project">
+                    <img src="https://multipurposethemes.com/wp-content/uploads/2022/07/Screen-Shot-2022-07-15-at-15.42.58.jpg" alt="Project 2" >
+                    <p>Project 2 - Responsive web application.</p>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+ 
+    <footer> 
+         <section id="container">
+            <h2>Contact Me</h2>
+            
+            <div class="formcontainer">
+                <form class="form">
+                    <!-- <h2>Quick </h2> -->
+                    <div class="input-group">
+                        <input type="text" required>
+                        <label>Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="number" required>
+                        <label>Phone no.</label>
+                    </div>
+                    
+                    <div class="input-group">
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" required>
+                        <label>Message</label>
+                    </div>
+                    <div class="input-group">
+         <input type="address" required>
+             <label>Address</label>
+            </div>
+
+             <button type="submit">Submit</button>
+                </form>
+            </div>    
+            
+
+            
+            <p>Feel free to reach out to me for any inquiries or collaborations.</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/thenameisjay._"><img src="icons8-instagram.gif" alt="Instagram"></a>
+                <a href="#"><img src="linko.png" alt="LinkedIn"></a>
+                <a href="#"><img src="x-social-media-white-round-icon.png" alt="Twitter"></a>
+            </div>
+        </section>
+        <p>&copy; 2025 Mr. JAY - Portfolio</p>
+    </footer>
+</body>
+</html>
