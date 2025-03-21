@@ -62,10 +62,12 @@ h4 {
 
 
 nav {
-    margin-left: 630px;
+    margin-left: 590px;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 17px;
     width: 600px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 nav ul {
@@ -85,7 +87,7 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px 15px;
+    padding: 5px 5px;
 }
 
 nav ul li a::after {
@@ -287,14 +289,15 @@ h2 {
 
 #home h2 {
 
-  margin-top: 10px;
+  /* margin-top: 10px;
  font-size: 50px;
- margin-left: -18px;
+ margin-left: -18px; */
+ padding-right: 700px;
 }
 
 h1{
-    margin-top: 20px;
-    margin-left: 500px;
+    margin-top: 80px;
+    margin-left: 100px;
     font-size: 60px;
 }
 h3{
@@ -311,19 +314,19 @@ h3:hover{
 #home{
     height: 800px;
     border: #007bff;
-    padding: 50px 20px;
+    /* padding: 50px 20px; */
     /* margin: 60px 0;  */
-    margin-left: 0px;
+    /* margin-left: 0px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-    margin-right: 30px;   
+    margin-right: 30px;    */
     text-align: center;
 }
 #home p {
-    margin-left: 50px;
-    margin-top: 200px;
-    font-size:30px;
+    margin-left: 30px;
+    margin-top: 100px;
+    font-size:20px;
 }
 .btn{
     margin-top: 0px;
