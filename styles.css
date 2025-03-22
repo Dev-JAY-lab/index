@@ -65,12 +65,13 @@ h4 {
 
 
 nav {
-    margin-left: 590px;
-    margin-top: 20px;
-    font-size: 17px;
-    width: 600px;
-    display: flex;
-    flex-wrap: wrap;
+    
+    margin-left: 50%;
+    margin-top: 0%;
+    font-size: 15px;
+    width: 40%;
+    height: 10%;
+ 
 }
 
 nav ul {
