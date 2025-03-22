@@ -110,12 +110,13 @@ nav ul li a:hover::after {
 section {
      padding: 50px 20px;
     /* margin: 60px 0;  */
-    margin-left: 10px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-    height: 800px;
+    height: 30%;
+    width: 100%;
     text-align: center;
+    
     
 }
 
